@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import styles from "../styles/SocialMediaCard.module.css";
-const socialMediaCount = (props: any) => {
+const SocialMediaCount = (props: any) => {
     return (
         <div className={styles.smcard}>
             <Image src={props.image} alt={""} />
@@ -10,4 +10,4 @@ const socialMediaCount = (props: any) => {
         </div>
     );
 };
-export default socialMediaCount;
+export default SocialMediaCount;
